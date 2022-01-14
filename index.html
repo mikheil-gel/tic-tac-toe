@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>TIC TAC TOE GAME</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="container">
+        <div>
+          <form id="mode">
+            <input type="radio" name="c-mode" id="rand" checked />
+            <label for="rand">1 PLAYER</label>
+            <input type="radio" name="c-mode" id="log" />
+            <label for="log">2 PLAYERS</label>
+          </form>
+        </div>
+        <div class="s-head">
+          <div>GAME <span class="game-c">1</span></div>
+        </div>
+        <div class="s-board">
+          <div class="you">YOU</div>
+          <div class="score"><span class="youS sc">0</span>:<span class="opS sc">0</span></div>
+          <div class="op">COMP</div>
+        </div>
+        <div class="g-board">
+          <div class="boxes">
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+            <div class="box center"></div>
+          </div>
+          <div class="result center hidden"></div>
+        </div>
+        <div class="buttons">
+          <button class="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
